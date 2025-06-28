@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Desventuras Cosmonáuticas",
+    "image": "https://i.imgur.com/KiEujjs.png",
+    "release": "Jun 2025",
+    "updated": "Jun 2025",
+    "description": "Uma ficção científica futurista, onde cientistas viajam pelo espaço tempo em busca de conhecimento.",
+    "link": "https://getinkspired.com/pt/story/593378/desventuras-cosmon-uticas/",
+    "stage": "stage-initial"
+  },
+  {
+    "title": "Contos de Prata",
+    "image": "https://i.imgur.com/ygCTeR1.png",
+    "release": "Out 2020",
+    "updated": "Ago 2021",
+    "description": "Contos de Prata é um livro composto por três histórias, ambas baseadas no conceito de que as coisas nem sempre são o que parecem. A lua parece brilhar feito prata, porém sua luz não é natural.",
+    "link": "https://getinkspired.com/pt/story/593898/contos-de-prata/",
+    "stage": "stage-final"
+  },
+  {
+    "title": "O Jogo",
+    "image": "https://i.imgur.com/VOBqgJ8.png",
+    "release": "Nov 2022",
+    "updated": "Jun 2025",
+    "description": "Edison é recrutado à força por Gustavo Neumann — herdeiro de um império construído sobre terras indígenas. Em troca da paz para seu povo, ele se torna um assassino de aluguel em São Paulo, disfarçado de mordomo.",
+    "link": "https://getinkspired.com/pt/story/593858/o-jogo/",
+    "stage": "stage-initial"
+  },
+  {
+    "title": "Onde Estavam as Cores?",
+    "image": "https://i.imgur.com/s7iMYh4.jpeg",
+    "release": "Jun 2021",
+    "updated": "Jun 2025",
+    "description": "Um ser despedaçado pelo fim de um amor revisita seus fantasmas em cinco atos: das rosas murchas ao espelho quebrado, das borboletas mortas ao trono de um rei sem reino.",
+    "link": "https://getinkspired.com/pt/story/593543/onde-estavam-as-cores/",
+    "stage": "stage-mvp"
+  },
+   {
+    "title": "Mestre do Capital",
+    "image": "https://i.imgur.com/EIwdI6W.png",
+    "release": "Set 2024",
+    "updated": "Jun 2025",
+    "description": "Num mundo onde o trabalho dignifica, mas a burocracia asfixia, Edmundo — um jovem cheio de vigor e vazio de escrúpulos — encara sua rotina 6x1 com a fé cega de quem acredita que Deus ajuda quem cedo madruga.",
+    "link": "https://getinkspired.com/pt/story/593842/mestre-do-capital/",
+    "stage": "stage-initial"
+  }
+]

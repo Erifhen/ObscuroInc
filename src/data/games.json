@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Atemporal",
+    "image": "https://i.imgur.com/QXl4BvP.png",
+    "release": "sem previsão",
+    "updated": "no papel",
+    "description": "Um RPG clássico com gerenciamento de recursos em estilo TCG, monte seu player e faça aliança com seus amigos para entrarem em missões e batalhas épicas!",
+    "link": "#",
+    "stage": "stage-initial"
+  },
+  {
+    "title": "Mágoas",
+    "image": "https://i.imgur.com/bbqQ9zA.png",
+    "release": "sem previsão",
+    "updated": "no papel",
+    "description": "Um TCG de estrátegia, onde um único baralho baseado nos Arcanos do Tarô é usado de forma única num duelo contra o ego.",
+    "link": "#",
+    "stage": "stage-initial"
+  },
+  {
+    "title": "O Necromante Regressa",
+    "image": "https://i.imgur.com/9eGmYJH.jpeg",
+    "release": "sem previsão",
+    "updated": "no papel",
+    "description": "Um jogo de estrátegia e combate, em que deve avaliar bem suas escolhas para evocar os guerreiros mais poderosos do além.",
+    "link": "#",
+    "stage": "stage-initial"
+  },
+    {
+    "title": "Demon Doodles",
+    "image": "https://laughingsquid.com/wp-content/uploads/2022/04/Demon-Doodles-1565.jpeg",
+    "release": "sem previsão",
+    "updated": "no papel",
+    "description": "Um RPG clássico de monstros colecionáveis, basados nas figuras folclóricas do imaginário europeu medieval cristão.",
+    "link": "#",
+    "stage": "stage-initial"
+  }
+]

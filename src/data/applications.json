@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Relógio Astronômico",
+    "image": "https://i.imgur.com/yiFTx9i.png",
+    "release": "Dez 2024",
+    "updated": "Jun 2025",
+    "description": "App de observação astronômica que integra dados via satélites para exibir clima, fases lunares e posicionamento zodiacal com alta precisão.",
+    "link": "https://relogio-astronomico.vercel.app/",
+    "stage": "stage-final"
+  },
+  {
+    "title": "Runas Arcanas",
+    "image": "https://i.imgur.com/7yLBJA0.png",
+    "release": "Jun 2025",
+    "updated": "Jun 2025",
+    "description": "App de sorte e simbologia esotérica que funde referências místicas hebraicas a uma interface futurista com elementos visuais em neon e glasmorfismo, oferecendo uma experiência interativa e imersiva.",
+    "link": "https://runas-arcanas.vercel.app/",
+    "stage": "stage-mvp"
+  },
+  {
+    "title": "Slay the Daemons",
+    "image": "https://i.imgur.com/hZdqR0f.png",
+    "release": "Mai 2025",
+    "updated": "Jun 2025",
+    "description": "App de produtividade gamificada que transforma tarefas pessoais em missões em estilo RPG, transformando objetivos em Daemons, que ao derrotar acumula experiência personalizada em categorias de autocuidado e desenvolvimento individual.",
+    "link": "https://slay-daemons-4ryw.vercel.app/",
+    "stage": "stage-mvp"
+  },
+    {
+    "title": "Sinestesia",
+    "image": "https://i.imgur.com/p18wsRF.png",
+    "release": "Em breve",
+    "updated": "",
+    "description": "App experimental que transforma cálculos simples em desafios sensoriais, combinando cores e sons em fases que estimulam percepção visual, auditiva e lógica.",
+    "link": "#",
+    "stage": "stage-initial"
+  }
+]
