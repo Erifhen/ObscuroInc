@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Header.css';
+import { initStarfield } from '../../utils/starField';
 
 const Header = () => {
+  useEffect(() => {
+    initStarfield('starfield');
+  }, []);
+
   return (
     <header className="hero">
+      <canvas id="starfield" className="star-canvas"></canvas>
       <div className="hero-content">
         <h1 className="hero-title">
           <span className="hero-gradient">Criando Fantasias Sombrias</span>

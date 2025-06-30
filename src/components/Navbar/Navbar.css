@@ -95,6 +95,7 @@
 
 /* Responsividade */
 @media (min-width: 768px) {
+
   .desktopMenu {
     display: flex;
     gap: 1rem;
@@ -106,5 +107,24 @@
 
   .mobileMenu {
     display: none;
+  }
+}
+
+@media (max-width: 824px) {
+  .logoBox {
+    padding: 0.25rem 0.5rem;
+    max-width: 90vw;
+    overflow: hidden;
+  }
+
+  .logoText {
+    font-size: 1.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .container {
+    padding: 0 0.5rem;
   }
 }

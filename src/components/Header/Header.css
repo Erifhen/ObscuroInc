@@ -21,28 +21,50 @@
   font-family: 'MedievalSharp', cursive;
 }
 
-@media (min-width: 768px) {
-  .hero-title {
-    font-size: 4.5rem;
-  }
-}
-
 .hero-gradient {
   background: linear-gradient(to right, #d1d5db, #6b7280);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  position: relative;
+  animation: etherealGlow 3s ease-in-out infinite;
+  text-shadow:
+    0 0 6px rgba(209, 213, 219, 0.3),
+    0 0 12px rgba(107, 114, 128, 0.2),
+    0 0 18px rgba(255, 255, 255, 0.15);
 }
 
 .hero-subtitle {
-  max-width: 768px;
-  margin: 0 auto 2rem;
-  font-size: 1.25rem;
   color: #d1d5db;
+  text-shadow:
+    0 0 4px rgba(209, 213, 219, 0.2),
+    0 0 8px rgba(107, 114, 128, 0.15),
+    0 0 12px rgba(255, 255, 255, 0.1);
+  animation: etherealGlow 4s ease-in-out infinite;
+}
+@keyframes etherealGlow {
+  0%, 100% {
+    text-shadow:
+      0 0 6px rgba(209, 213, 219, 0.3),
+      0 0 12px rgba(107, 114, 128, 0.2),
+      0 0 18px rgba(255, 255, 255, 0.15);
+    transform: scale(1);
+  }
+  50% {
+    text-shadow:
+      0 0 10px rgba(255, 255, 255, 0.4),
+      0 0 20px rgba(209, 213, 219, 0.3),
+      0 0 30px rgba(255, 255, 255, 0.2);
+    transform: scale(1.01);
+  }
 }
 
+
 @media (min-width: 768px) {
-  .hero-subtitle {
+  .hero-title {
+    font-size: 4.5rem;
+  }
+    .hero-subtitle {
     font-size: 1.5rem;
   }
 }
@@ -89,3 +111,14 @@
   pointer-events: none;
   z-index: 0;
 }
+.star-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+

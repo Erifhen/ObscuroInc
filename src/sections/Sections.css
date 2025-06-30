@@ -15,12 +15,24 @@
   font-weight: bold;
   display: flex;
   align-items: center;
+  background: linear-gradient(to right, #7dd3fc, #38bdf8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  position: relative;
+  animation: neonBlueGlow 3s ease-in-out infinite;
+  text-shadow:
+    0 0 6px rgba(56, 189, 248, 0.4),
+    0 0 12px rgba(56, 189, 248, 0.3),
+    0 0 18px rgba(255, 255, 255, 0.2);
 }
 
 .section-title .icon-purple {
   margin-right: 0.75rem;
   color: #a78bfa;
+  text-shadow: 0 0 6px rgba(167, 139, 250, 0.4);
 }
+
 
 .bounce-icon {
   margin-left: auto;
@@ -42,5 +54,22 @@
 @media (min-width: 1024px) {
   .project-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@keyframes neonBlueGlow {
+  0%, 100% {
+    text-shadow:
+      0 0 6px rgba(56, 189, 248, 0.4),
+      0 0 12px rgba(56, 189, 248, 0.3),
+      0 0 18px rgba(255, 255, 255, 0.2);
+    transform: scale(1);
+  }
+  50% {
+    text-shadow:
+      0 0 10px rgba(125, 211, 252, 0.6),
+      0 0 20px rgba(56, 189, 248, 0.4),
+      0 0 30px rgba(255, 255, 255, 0.25);
+    transform: scale(1.01);
   }
 }
