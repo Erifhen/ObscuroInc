@@ -29,10 +29,10 @@
     {
     "title": "Sinestesia",
     "image": "https://i.imgur.com/p18wsRF.png",
-    "release": "Em breve",
-    "updated": "",
+    "release": "Jul 2025",
+    "updated": "Jul 2025",
     "description": "App experimental que transforma cálculos simples em desafios sensoriais, combinando cores e sons em fases que estimulam percepção visual, auditiva e lógica.",
-    "link": "#",
-    "stage": "stage-initial"
+    "link": "https://sinestesia-eight.vercel.app/",
+    "stage": "stage-mvp"
   }
 ]
